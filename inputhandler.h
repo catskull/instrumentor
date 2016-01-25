@@ -30,7 +30,7 @@ THE SOFTWARE. }}} */
 
 UBYTE prev_keystate;
 /* key_delay and key_repeat values are measured in vblanks */
-UBYTE key_delay=6,key_repeat=3;
+UBYTE key_delay=6,key_repeat=6;
 UBYTE key_delay_counter,key_repeat_counter;
 UBYTE new_keypress;
 
